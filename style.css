@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'dracoins';
+    src: url("http://localhost/DnD/fonts/draconis/Draconis-JRw6B.ttf");
+}
+
+@font-face {
+    font-family: 'tick-or-treats';
+    src: url("http://localhost/DnD/fonts/tick-or-treats/TrickOrTreats-rgj0O.ttf");
+}
+
+@font-face {
+    font-family: 'boockmania';
+    src: url("fonts/EAVES\ V.1.TTF");
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    transition: .3s;
+}
+
+header {
+    background-color: black;
+}
+
+header .logo {
+    width: 15vw;
+    display: block;
+    margin: 0 auto;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    font-size: 1.3vw;
+    margin: 1vh .5vw;
+    text-decoration: none;
+    font-family: 'dracoins';
+    color: white;
+    font-family: 'boockmania';
+}
+
+header nav a:hover {
+    color: red;
+}
